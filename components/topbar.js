@@ -2,7 +2,7 @@ const topbar = () =>{
 
     return `<div id="free"><p> Free Makeup Set + Pouch on a spend of RS899</p></div>
     <div id="nav">
-        <div id="homeButton"><img src="https://in.sugarcosmetics.com/desc-images/SUGARLogo1.png" alt="home-icon"></div>
+        <div id="homeButton"><a href="/index.html"><img src="https://in.sugarcosmetics.com/desc-images/SUGARLogo1.png" alt="home-icon"></a></div>
         <div id="searchbar">
             <input type="text" placeholder='Try "Liquid Lipstick"' id="inputBox">
             <button id="searchBtn">Search</button>
@@ -50,8 +50,6 @@ const topbar = () =>{
             <option value="best">BESTSELLERS</option>
         </select>
         
-    </div>
-    </div>`;
+    </div>`
 }
-
 export default topbar ;
