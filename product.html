@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top"></div>
+
+    <div id="firstBox" >
+        <div id="left">
+            <div>
+                <img src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg" alt="home">
+            </div>
+            <div class="slash">/ MAKEUP /</div>
+            <div id="maindiv"></div>
+        </div>
+        
+        <div id="right">
+            <div id="maindiv2">-</div>
+
+            <div id="count"></div>
+
+            <div id="sortimg">
+                <img src="https://in.sugarcosmetics.com/desc-images/sortIcon.png" alt="sort">
+                <select id="sortbox" onchange="sorting()">
+                    <option>Sort</option>
+                <option value="h2l">Price High To Low</option>
+                <option value="l2h">Price Low To High</option></select>
+            </div>
+        </div>
+    </div>
+
+    <div id="container"></div>
+
+    <div id="end"></div>
+</body>
+</html>
+<script src="./scripts/product_import.js" type="module"></script>
+<script src="./scripts/product.js"></script>

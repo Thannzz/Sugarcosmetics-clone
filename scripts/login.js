@@ -1,11 +1,62 @@
-import topbar from '../components/topbar.js'
+if(localStorage.getItem('users') === null){
+    localStorage.setItem('users', JSON.stringify([]))
+}
 
-let parent = document.getElementById('top')
+let  userArr = []
+function storeCredentials(){
+    let email = document.getElementById('SignupEmail').value
 
-parent.innerHTML=topbar()
+    let Phone = document.getElementById('SignupPhone').value
 
-import footer from '../components/footer.js'
+    let pass = document.getElementById('SignupPassword').value
 
-let end = document.getElementById('end')
+    let p1 = new userdata(email,Phone,pass)
 
-end.innerHTML=footer(); 
+    userArr.push(p1)
+
+    
+    localStorage.setItem("user",JSON.stringify(userArr))
+}
+
+function userdata(e,ph,pa){
+    this.email = e ;
+    this.Phone = ph;
+    this.pass=pa ;
+}
+
+
+
+function getData(){
+    let alluser = JSON.parse(localStorage.getItem('user'))
+
+    let email = document.getElementById('email_phone').value
+
+    let pass = document.getElementById('password').value
+
+    
+    alluser.forEach(function(user){
+        // console.log(email,user.email)
+        // console.log(pass,user.pass)
+        // console.log(email,user.Phone)
+        
+     if((email===user.email && pass ===user.pass)||
+     (email===user.Phone && pass===user.pass)){
+         
+         alert('Login Successful')
+         window.location.href='index.html'
+         return 
+     }
+     else if((email!=user.email && pass ===user.pass)||
+     (email!=user.Phone && pass===user.pass)){
+        alert('Invalid Email/Phone')
+        return 
+     }
+     else if((email===user.email && pass !=user.pass)||
+     (email===user.Phone && pass!=user.pass)){
+        alert('Invalid Password')
+        return 
+     }
+    });
+    
+}
+    

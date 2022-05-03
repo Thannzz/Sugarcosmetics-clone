@@ -13,10 +13,65 @@
 <body>
     <div id="top"></div>
 
-    <div id="mid"></div>
+    <div id="log_reg">
+        <div id="log">
+            <div id="login_headinh">
+                <h3>Login/Sign In</h3>
+            </div>
+            <div id="login_box">
+                <div id="login_box_heading">
+                    <img src="https://in.sugarcosmetics.com/smartphone.svg" alt="mobile icoc">
+                    <div id="headin1">Login Using Phone/E-mail</div>
+                </div>
+               <!--input  -->
+               <div>
+                   
+                    <input type="text" id="email_phone" placeholder="Eamil/Phone">
+                    <input type="password" id="password" placeholder="Password">
+                    <button onclick="getData()" id="loginBtn">Login</button>
+                    
+                
+               </div>
+               
+               
+            </div>
+    
+        </div>
+
+        <div id="log">
+            <div id="login_headinh">
+                <h3>Sign Up/Register</h3>
+            </div>
+            <div id="signinBox">
+                <div id="login_box_heading">
+                    <img src="https://in.sugarcosmetics.com/smartphone.svg" alt="mobile icoc">
+                    <div id="headin1">Sign in Using Phone/E-mail</div>
+                </div>
+               <!--input  -->
+               <div>
+                   
+                    <input type="text" id="SignupEmail" placeholder="Eamil">
+                    <input type="number" id="SignupPhone" placeholder="Phone Number">
+                    <input type="password" id="SignupPassword" placeholder="Password">
+                    <button onclick="storeCredentials()" id="signinBtn">Sign In</button>
+                    
+                
+               </div>
+               
+               
+            </div>
+    
+        </div>
+
+    </div>
+    
+
+    
+    
 
     <div id="end"></div>
 
     
 </html>
-<script src="./scripts/login.js" type="module"></script>
+<script src="./scripts/login_import.js" type="module"></script>
+<script src="./scripts/login.js"></script>

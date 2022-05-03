@@ -34,6 +34,7 @@ let images = ['https://d32baadbbpueqt.cloudfront.net/b8311284-7fee-40b5-ac37-c62
             'https://d32baadbbpueqt.cloudfront.net/0f778fe7-2af2-48fc-abf5-7a2f5df09dcf.jpg',
             'https://d32baadbbpueqt.cloudfront.net/d53f8a36-fef3-45ea-b89e-ace53938287d.jpg',
             'https://d32baadbbpueqt.cloudfront.net/af5f80d6-032a-49da-ae46-e7dc61f6e339.gif',
+            'https://sugar-mobile-application.s3-ap-south-1.amazonaws.com/d9103d2b-af25-40c3-b41b-90538502b315.gif',
             'https://d32baadbbpueqt.cloudfront.net/30017ad5-6f33-4fe4-ad13-87dc24ba5245.jpg']
 
 let i=0;
@@ -105,6 +106,15 @@ var bestArr = [
                 'https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-tipsy-lips-moisturizing-balm-05-irish-coffee-15045421924435.jpg?v=1619122384',
                 'https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-tipsy-lips-moisturizing-balm-06-mango-margarita-15045418942547.jpg?v=1619122395']
     },
+
+    // {
+    //     ProductNmae : "Ace Of Face Foundation Stick",
+    //     Price :  999,
+    //     image :["https://cdn.shopify.com/s/files/1/0906/2558/products/1_970c1c21-0fc9-4a9b-98dc-43cebdc5f554.jpg?v=1640792528",
+    //             "https://cdn.shopify.com/s/files/1/0906/2558/products/2_40b8d0b3-b672-41dd-8a98-e32a36421020.jpg?v=1640869911",
+    //             "https://cdn.shopify.com/s/files/1/0906/2558/products/3_db28afbb-f8ba-430b-9770-07120d38eb5e.jpg?v=1640792532"],
+    //     category : "Face",
+    // },
 ] 
 
 
@@ -114,14 +124,13 @@ let showdata = (el)=>{
     el.forEach(({image,Price,ProductNmae})=>{
         let box = document.createElement('div')
         box.setAttribute('class','mainbox')
-
+        
         let pic = document.createElement('img')
         pic.src=image
         pic.setAttribute('class','pic')
 
         let proName = document.createElement('p')
         proName.innerHTML=ProductNmae
-        
         
         let price = document.createElement('p')
         price.innerHTML=`₹ ${Price}`;
@@ -133,6 +142,10 @@ let showdata = (el)=>{
         box.append(pic,proName,price,cart)
 
         best.append(box)
+
+        box.onclick = function () {
+            ProductDescritionPage(el)
+                }
     })
 }
 
@@ -172,6 +185,23 @@ setInterval(function(){
     j++;
 
 },3000)
+
+//Local Storage data access Function
+function ProductDescritionPage(p) {
+
+    var descriptionPage = JSON.parse(localStorage.getItem("ProductDescritionPage"));
+    
+    descriptionPage = [];
+    
+    descriptionPage.push(p);
+    
+    var qunat = 1 ;
+    
+    localStorage.setItem("ProductDescritionPage", JSON.stringify(descriptionPage));
+    
+    window.location.href = "productDescription.html";
+}
+
 
 
 

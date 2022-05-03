@@ -325,6 +325,7 @@ h5~div{
     height: 100%;
     /* border: #1f1f1f 1px solid; */
     display: flex;
+    
     justify-content: space-between;
 }
 .mainbox{

@@ -27,7 +27,7 @@ const topbar = () =>{
         </div>
     </div>
     <div id="cate">
-        <select>
+        <select name='makeup' id='makeupfilter' onchange='showmakeup()' >
             <option>MAKEUP</option>
             <option value="lips">LIPS</option>
             <option value="face">FACE</option>

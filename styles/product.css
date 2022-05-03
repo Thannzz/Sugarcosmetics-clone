@@ -1,0 +1,51 @@
+#firstBox{
+    width: 90%;
+    height: 25px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#left,#right{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+div img{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+.slash{
+    font-size: 15px;
+    color: #6c757d;
+    padding-right: 5px;
+}
+#container{
+    width: 80%;
+    height: 100%;
+    /* border: #1f1f1f 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5%;
+    margin: auto;
+}
+#sortimg{
+    margin-left: 25px;
+    margin-top: -3px;
+    margin: none;
+    
+}
+#sortbox{
+    border: none;
+    width: 75px;
+}
+.namebox{
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    
+}
+
