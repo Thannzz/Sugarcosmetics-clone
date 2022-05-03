@@ -46,6 +46,11 @@ div img{
     height: 50px;
     width: 90%;
     margin: auto;
-    
+}
+#maindiv,#sortimg,#maindiv2,#count,#sortbox{
+    text-transform: uppercase;
+}
+.mainbox{
+    border: 1px solid red;
 }
 

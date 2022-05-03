@@ -28,24 +28,24 @@ const topbar = () =>{
     </div>
     <div id="cate">
         <select name='makeup' id='makeupfilter' onchange='showmakeup()' >
-            <option>MAKEUP</option>
+            <option class="default">MAKEUP</option>
             <option value="lips">LIPS</option>
             <option value="face">FACE</option>
             <option value="eyes">EYES</option>
         </select>
         <select>
-            <option>BRUSHES</option>
+            <option class="default" value="BRUSHES">BRUSHES</option>
             <option value="faceBrushes">FACE BRUSHES</option>
             <option value="eyeBrushes">EYE BRUSHES</option>
             
         </select>
         <select>
-            <option>SKINCARE</option>
+            <option class="default" value="SKINCARE">SKINCARE</option>
             <option value="moist">MOISTURIZER</option>
             <option value="mask">MASKS</option>
         </select>
         <select>
-            <option>TRENDING</option>
+            <option class="default" value="TRENDING">TRENDING</option>
             <option value="makeup">MAKE UP KITS</option>
             <option value="best">BESTSELLERS</option>
         </select>

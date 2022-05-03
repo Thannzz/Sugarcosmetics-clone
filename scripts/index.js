@@ -121,29 +121,37 @@ var bestArr = [
 
 let showdata = (el)=>{
     let best=document.getElementById('best')
-    el.forEach(({image,Price,ProductNmae})=>{
+    el.forEach(function(el){
         let box = document.createElement('div')
         box.setAttribute('class','mainbox')
         
         let pic = document.createElement('img')
-        pic.src=image
+        pic.src=el.image
         pic.setAttribute('class','pic')
 
         let proName = document.createElement('p')
-        proName.innerHTML=ProductNmae
+        proName.innerHTML=el.ProductNmae
         
         let price = document.createElement('p')
-        price.innerHTML=`₹ ${Price}`;
+        price.innerHTML='₹'+ el.Price
 
+        let mindiv = document.createElement('div')
+        
         let cart = document.createElement('button')
         cart.innerHTML='ADD TO CART'
         cart.setAttribute('class','cartbtn')
+        cart.onclick= function () {
+            cartPage(el)
+            
+        }
 
-        box.append(pic,proName,price,cart)
+        mindiv.append(pic,proName,price)
 
+        box.append(mindiv,cart)
+        
         best.append(box)
 
-        box.onclick = function () {
+        mindiv.onclick = function () {
             ProductDescritionPage(el)
                 }
     })
@@ -201,6 +209,19 @@ function ProductDescritionPage(p) {
     
     window.location.href = "productDescription.html";
 }
+
+function cartPage(e){
+    var cartPage = JSON.parse(localStorage.getItem("cartPage"))||[];
+    e.quant=1;
+    
+    
+    cartPage.push(e);
+    
+    localStorage.setItem("cartPage", JSON.stringify(cartPage));
+    
+     window.location.href = "addtocart.html";
+    
+    }
 
 
 

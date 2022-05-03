@@ -1,0 +1,159 @@
+#left{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 5%;
+}
+.slash{
+    width: 100% ; 
+    height: 25px;
+    /* border: 1px solid red; */
+    text-transform: uppercase;
+}
+#container{
+    width: 90%;
+    height: 1700px;
+    /* border:  1px solid red; */
+    margin: auto;
+    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 25px;
+}
+.imgbox{
+    border: 1px solid red;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    padding-top: 50px;
+    
+}
+.pic{
+    width: 100%;
+    height: 100%;
+}
+.maindiv{
+    width: 100%;
+    height: 500px;
+    border: 1px solid blue;
+    display: flex;
+}
+.allimgdiv{
+    width: 150px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    margin-left: 75px;
+}  
+.allimgdiv>img{
+    margin:10px 20px 10px 20px ;
+    width: 110px;
+    height: 140px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+.des{
+    width: 45%;
+    height: 50%;
+    /* border: 1px solid red; */
+    margin-left:50px;
+    margin-top: 50px;
+}
+.name{
+    
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 1.2;
+    box-sizing: border-box;
+    font-style:unset;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif; 
+    font-family: 'Roboto', sans-serif ;
+}
+.fa-thin fa-star{
+    width: 50px;
+    height: 50px;
+}
+.star{
+    width: 200px;
+    height: 80px;
+    margin-top: -30px;
+}
+.rating{
+    font-size: large;
+    margin-top: -20px;
+}
+.addbtn{
+    width: 50%;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sharediv{
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    display: flex;
+}
+.word{
+    margin-top: 0px;
+}
+.watsapp,.facebk,.twitter,.tumblr,.mail,.linked{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+#details{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid rgb(0, 255, 123);
+}
+#details img{
+    margin-top: 25px;
+}
+#pin{
+    display: flex;
+    width: 70%;
+    height: 50px;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 15px;
+}
+#pincode{
+    margin-left: 5px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+#checkbtn{
+    width: 15%;
+    margin-left: 15px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.head{
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    
+}
+.dump{
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+li{
+    margin-left: 20px;
+}
+.weight{
+    margin-top: 20px;
+    
+}
+strong{
+    margin-right: 10px;
+    
+}
+
+
+

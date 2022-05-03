@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/description.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
@@ -12,7 +13,62 @@
 </head>
 <body>
     <div id="top"></div>
-    <div></div>
+    
+    <div id="left">
+        <div>
+            <img src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg" alt="home">
+        </div>
+        <div class="slash"></div>
+    </div>
+
+    <div id="container">
+        <div id="innercontainer"></div>
+        <div id="details">
+            <img src="https://in.sugarcosmetics.com/productbanner.svg" alt="desc_img">
+            <div id="pin">
+                <p>Check Estimated Delivery Date For your Location :</p>
+                <input type="number" id="pincode" placeholder="Enter Pincode">
+                <button id="checkbtn">Check Now</button>
+            </div>
+            <div>
+                <p class="head">Available Offers!!</p>
+                <p class="dump"> – FREE Blend The Rules Eyeshadow Palette on a spend of Rs.1199</p>
+                <p class="dump"> – Get a Graphic Jam 36HR Eyeliner, Kohl Of Honour Intense Kajal and Pouch on a spend of Rs. 1098</p>
+                <p class="dump"> – Free Complimentary Products Worth Rs.599</p>
+                <p class="dump"> – Free Complimentary Products Worth Rs.1099</p>
+                <p class="dump"> – Free Complimentary Products Worth Rs.1499</p>
+                <p class="dump"> – Free Complimentary Products Worth Rs.1999</p>
+            </div>
+            <div>
+                <p class="head">Description</p>
+                <p class="dump"> Step aside lip gloss, we’re going in for slick matte, bold and pigmented colour!</p>
+                <p class="dump">Presenting the innovative SUGAR Lip Zip Matte Topper that mattifies and locks in your creamy or semi-matte lipstick for long, long hours! This super lightweight, transfer-proof liquid based formula dries to a smooth matte finish sans any streak or sticky feel. Comfortable on lips, this is a 100% vegan formula that provides intense moisturization to your pout and creates a waterproof barrier, making your lippie last all night long.</p>
+                <p class="dump">Get it now and pout out loud!</p>
+            </div>
+            <div>
+                <p class="head">Benefits:</p>
+                <li>This top coat goes on clear and mattifies your lipstick beautifully </li>
+                <li>Long-lasting formula that stays all day without drying lips</li>
+                <li>Makes your lipstick transfer-proof and water-proof</li>
+                <li>The formula also helps in extending the life of the lipstick applied</li>
+                <li>Makes your lips smooth and adds intense hydration</li>
+                <li>100% vegan and cruelty-free</li>
+            </div>
+            <div class="weight" >
+                <strong>Net Weight:</strong>1mg
+                <br>
+                <strong>Maximum Retail Price:</strong>Rs.499 (incl.of taxes)
+                <br>
+                <strong>Country of Origin:</strong>PRC
+                <br>
+                <strong>Company Name:</strong>SUGAR Cosmetics LLC
+                <br>
+                <strong>Company Address:</strong>8 The Green, Suite A, Dover, DE 19901
+                <br>
+            </div>
+        </div>
+    </div>
+    
     <div id="end"></div>
 </body>
 </html>
@@ -29,3 +85,5 @@
 
     end.innerHTML=footer();      
 </script>
+<script src="./scripts/description.js"></script>
+<script src="https://kit.fontawesome.com/985c64737c.js" crossorigin="anonymous"></script>

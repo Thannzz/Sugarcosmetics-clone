@@ -35,11 +35,7 @@ function getData(){
 
     
     alluser.forEach(function(user){
-        // console.log(email,user.email)
-        // console.log(pass,user.pass)
-        // console.log(email,user.Phone)
-        
-     if((email===user.email && pass ===user.pass)||
+    if((email===user.email && pass ===user.pass)||
      (email===user.Phone && pass===user.pass)){
          
          alert('Login Successful')
