@@ -13,14 +13,15 @@
 }
 #container{
     width: 90%;
-    height: 1700px;
+    height: auto;
     /* border:  1px solid red; */
     margin: auto;
     box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     margin-top: 25px;
+    padding: 50px;
 }
 .imgbox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 300px;
     height: 400px;
     margin-left: 50px;
@@ -33,8 +34,8 @@
 }
 .maindiv{
     width: 100%;
-    height: 500px;
-    border: 1px solid blue;
+    height: auto;
+    /* border: 1px solid blue; */
     display: flex;
 }
 .allimgdiv{
@@ -106,8 +107,8 @@
 }
 #details{
     width: 100%;
-    height: 1000px;
-    border: 1px solid rgb(0, 255, 123);
+    height: auto;
+    /* border: 1px solid rgb(0, 255, 123); */
 }
 #details img{
     margin-top: 25px;

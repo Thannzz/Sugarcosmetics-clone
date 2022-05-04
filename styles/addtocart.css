@@ -1,0 +1,198 @@
+#left{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 5%;
+}
+.slash{
+    width: 100% ; 
+    height: 25px;
+    /* border: 1px solid red; */
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+#homerimg>img{
+    width: 22px;
+    height: 22px;
+}
+#container{
+    width: 90%;
+    height: auto;
+    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    
+}
+#leftbox{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-right: 5%;
+    
+}
+#rightbox{
+    width: 45%;
+    height: 400px;
+    background-color: #faf9f9;;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.class{
+    margin-top: 10px;
+    color: #575555;
+    font-size: 16px;
+    font-weight: 600;
+}
+#total{
+    /* border: 1px solid blue; */
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: end;
+    padding: 8px;
+    color: #575555;
+    font-size: 16px;
+    font-weight: 600;
+    /* text-decoration: underline; */
+}
+#summary{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+}
+.order>img{
+    vertical-align: middle;
+    
+}
+#display{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.maindiv{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    margin-top: 20px;
+}
+.pic{
+    width: 85px;
+    height: 115px;
+}
+.name{
+    font-family: 'Quicksand', sans-serif; 
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 900;
+    padding: 5px;
+    width: 30%;
+}
+.removeicon{
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:50px;
+}
+.addbtn,.deducebtn
+{
+    width: 4%;
+    height: 4%;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top:50px;
+    margin-left: 25px;
+}
+.deducebtn{
+    margin-left: 10px;
+}
+.qaantity{
+    margin-top:50px;
+    margin-left: 15px;
+}
+.amount{
+    font-size: 16px;
+    margin-top:50px;
+    margin-left: 20px;
+}
+#firstbox,#secondbox,#thirdbox,.fifthbox{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 2%;
+    display: flex;
+}
+
+span{
+    margin-left: 10px;
+}
+#promo{
+    padding: 2%;
+    margin-left: 2%;
+    margin-top: -2%;
+    border: none;
+    background-color: white;
+}
+#btn{
+    width: 15%;
+    margin-top: -2%;
+    text-align: center;
+    background-color: rgb(236, 228, 219);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+#fourthbox{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: white;
+    
+}
+.six,#six,.discount{
+    width: 50%;
+    /* border: 1px solid red; */
+    height: auto;
+    margin-left: 5%;
+}
+#six{
+    font-weight: bold;
+}
+#shopbtn{
+    width: 30%;
+    margin: 2% 0 0 5% ;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Quicksand;
+    color: black;
+    background-color: white;
+    border: none;
+}
+#delbtn{
+    width: 60%;
+    margin: 2% 0 0 0 ;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Quicksand;
+    background-color: black;
+    color: white;
+}
+

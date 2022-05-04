@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/addtocart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Cart</title>
+</head>
+<body>
+    <div id="top"></div>
+
+    <div id="left">
+        <div id="homerimg">
+            <img src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg" alt="home">
+        </div>
+        <div class="slash"> / CART</div>
+    </div>
+
+    <div id="container">
+        <div id="leftbox">
+            <div id="summary">
+                <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/shopping_cart.svg" alt="orderimg"><span> Order Summary</span></div>
+                <div id="total"></div>
+            </div>
+            <div id="display"></div>
+        </div>
+        <div id="rightbox">
+            <div id="firstbox">
+                <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/Offers_price_details.svg" alt="orderimg"><span>Offers and Price Details</span></div>
+            </div>
+            <div id="secondbox">
+                <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/GiftCard.svg" alt="orderimg"><span>Gift Card/Discount Code</span></div>
+                <input type="text" id="promo" placeholder="Enter Promo Code">
+                <button id="btn" onclick="promo(event)">Apply</button>
+            </div>
+            <div id="thirdbox">
+                <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/PriceDetails.svg" alt="orderimg"><span>Price Details</span></div>
+            </div>
+            <div id="fourthbox">
+                <div class="fifthbox">
+                    <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/CartSubtotal.svg" alt="orderimg"><span>Cart Sub Total:
+                    </span></div>
+                    <div class="six"></div>
+                </div>
+                <div class="fifthbox">
+                    <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/Shipping_Cost.svg" alt="orderimg"><span>Shipping Cost:
+                    </span></div>
+                    <div class="six">₹ 0.00</div>
+                </div>
+                <div class="fifthbox">
+                    <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/Discount.svg" alt="orderimg"><span>Discount Applied:
+                    </span></div>
+                    <div class="discount">₹ 0.00</div>
+                </div>
+                <div class="fifthbox">
+                    <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/AmountPayable.svg" alt="orderimg"><span>Amount Payable:
+                    </span></div>
+                    <div id="six"></div>
+                </div>
+            </div>
+            <button id="shopbtn" onclick="shop(event)">< Continue Shopping</button>
+            <button id="delbtn" onclick="delivery(event)">Delivery Information</button>
+        </div>
+    </div>
+
+    <div id="end"></div>
+</body> 
+</html>
+<script type="module">
+//importing top navbar
+import topbar from '../components/topbar.js'
+
+let parent = document.getElementById('top')
+
+parent.innerHTML=topbar()
+
+//importing footer
+import footer from '../components/footer.js'
+
+let end = document.getElementById('end')
+
+end.innerHTML=footer()
+</script>
+
+<script src="./scripts/addtocart.js"></script>
