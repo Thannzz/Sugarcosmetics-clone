@@ -138,7 +138,224 @@ var prodArr = [
         category : "Eyes",
         id:'MAKEUP'
     },
+    {
+        ProductNmae : "Blend Trend Dual Face Brush - 075 Powder + Foundation",
+        Price :  599,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-12-min.jpg?v=1627573647",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-22.jpg?v=1627565188",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_1.jpg?v=1627573649"],
+        category : "Face Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Foundation Brush - 052 Kabuki",
+        Price :  399,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/BlendTrendFoundationBrush-052Kabuki.jpg?v=1627573664",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/BlendTrendFoundationBrush-052Kabuki_93d47907-4bb8-49f7-94b4-d409d8f9d99b.jpg?v=1627573666",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_eddd3343-cf6e-4465-baec-da7789984c08.jpg?v=1627573668"],
+        category : "Face Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Dual Eyeshadow Brush - 412 Flat + Round",
+        Price :  499,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-5-min.jpg?v=1627573639",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-16.jpg?v=1627565575",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_1_b2aeb11a-0d73-40e5-b8c9-d4d41cb0b454.jpg?v=1627573641"],
+        category : "Face Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Face Brush - 003 Contou",
+        Price :  699,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/BlendTrendFaceBrush-003Contour.jpg?v=1627659996",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/BlendTrendFaceBrush-003Contour_906d9652-0c48-494c-87d3-031348fe8327.jpg?v=1627659998",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_9d22dca2-f9dc-431c-b72c-4e9a1e8b8b6e.jpg?v=1627660000"],
+        category : "Face Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Eyeshadow Brush - 041 Flat",
+        Price :  399,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-2-min.jpg?v=1627573652",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-14.jpg?v=1627565665",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-14.jpg?v=1627565665"],
+        category : "Eyes Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Eyeshadow Brush - 042 Round",
+        Price :  399,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-3-min.jpg?v=1627573657",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_1_816c183e-f163-48fc-9755-3a38eb315281.jpg?v=1627573659",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-15.jpg?v=1627565690"],
+        category : "Eyes Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Eyeshadow Brush - 043 Round Xl",
+        Price :  399,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-14_1.jpg?v=1627659982",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_1_42a8da56-5e6e-4fe5-99f5-eb1aa6ff8402.jpg?v=1627622934",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-23.jpg?v=1627622934"],
+        category : "Eyes Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Blend Trend Dual Eyeshadow Brush - 412 Flat + Round",
+        Price :  599,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-5-min.jpg?v=1627573639",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blendtrend-powderedbyimage_1_b2aeb11a-0d73-40e5-b8c9-d4d41cb0b454.jpg?v=1627573641",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/Blend-Trend-WBG-images-16.jpg?v=1627565575"],
+        category : "Eyes Brushes",
+        id:'BRUSHES'
+    },
+    {
+        ProductNmae : "Bling Leader Illuminating Moisturizer",
+        Price :  499,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-bling-leader-illuminating-moisturizer-13644982681683.jpg?v=1619115847",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-bling-leader-illuminating-moisturizer-01-gold-diggin-warm-gold-with-a-pearl-finish-13644974751827.jpg?v=1619115850",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-bling-leader-illuminating-moisturizer-02-pink-trippin-cool-pink-with-a-pearl-finish-13644977307731.jpg?v=1619115852"],
+        category : "Moisturizer",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Aquaholic Water Boost Mask",
+        Price :  149,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-water-boost-mask-13548848087123.jpg?v=1619115321",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-water-boost-mask-14280305541203.jpg?v=1619115323",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-water-boost-mask-13548848119891.jpg?v=1619115326"],
+        category : "Mask",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Power Clay Mask Stick",
+        Price :  699,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/1_3cb613fc-43c8-4763-b3e6-5ccf4761c0d5.jpg?v=1641570994",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/2_a1984cd1-0402-43f6-9608-66376f9791f4.jpg?v=1641570996",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/3_07e3eb1c-7324-4d69-aa42-bdc67124600d.jpg?v=1641570998"],
+        category : "Mask",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Cheat Sheet Clarifying Mask",
+        Price :  99,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-cheat-sheet-clarifying-mask-12775754203219.jpg?v=1619113702",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-cheat-sheet-clarifying-mask-14247391920211.jpg?v=1619113704",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-cheat-sheet-clarifying-mask-12775754367059.jpg?v=1619113707"],
+        category : "Mask",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "SUGAR Cheat Sheet Pore Care Mask",
+        Price :  149,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-sugar-cheat-sheet-pore-care-mask-12775754563667.jpg?v=1619113743",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-sugar-cheat-sheet-pore-care-mask-14247386906707.jpg?v=1619113745",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-sugar-cheat-sheet-pore-care-mask-12775754596435.jpg?v=1619113748"],
+        category : "Mask",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Aquaholic Priming Moisturizer",
+        Price :  499,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/moisturiser.jpg?v=1626968292",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-priming-moisturizer-14280379498579.jpg?v=1626948350",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-priming-moisturizer-13548826886227.jpg?v=1626948350"],
+        category : "Moisturizer",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Aquaholic Hydrating Stick",
+        Price :  899,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/Hyderattingkit.jpg?v=1626968294",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-hydrating-stick-14280318353491.jpg?v=1645622092",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-aquaholic-hydrating-stick-13548839731283.jpg?v=1644318231"],
+        category : "Moisturizer",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Citrus Got Real Daily Moisturizer",
+        Price :  499,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-citrus-got-real-daily-moisturizer-28038347292755.jpg?v=1619155748",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-citrus-got-real-daily-moisturizer-28038347259987.jpg?v=1619155750",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-citrus-got-real-daily-moisturizer-28038347227219.jpg?v=1619155752"],
+        category : "Moisturizer",
+        id:'SKINCARE'
+    },
+    {
+        ProductNmae : "Sweat No More Makeup Kit",
+        Price :  2699,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/383823136-launch-sweat-no-more-makeup-kit-wbg-images_11.jpg?v=1649132668",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/383823131-launch-sweat-no-more-makeup-kit-wbg-images_9.jpg?v=1649132668",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/383823109-launch-sweat-no-more-makeup-kit-wbg-images_3.jpg?v=1649132668"],
+        category : "Make up kits",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "Anniversary Kit",
+        Price :  1999,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/1_0ca61ef7-05ce-49be-9fa1-de7c41b99a1f.jpg?v=1650022932",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/14_06872e7f-6866-400d-b6e6-9e0a3efd31f6.jpg?v=1650022932",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/3_5.jpg?v=1650022932"],
+        category : "Bestsellers",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "All Set To Go Banana Powder",
+        Price :  599,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-banana-powder-13289662218323.jpg?v=1619115199",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-banana-powder-14376570912851.jpg?v=1619115201",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-banana-powder-13289662185555.jpg?v=1619115203"],
+        category : "Bestsellers",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "Mettle Liquid Lipstick - 10 Mimosa (Deep pinkish red with blue undertone)",
+        Price :  1199,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-liquid-lipstick-10-mimosa-deep-pinkish-red-with-blue-undertone-12067449733203.jpg?v=1619110017",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-liquid-lipstick-10-mimosa-deep-pinkish-red-with-blue-undertone-14340475289683.jpg?v=1619110019",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-liquid-lipstick-10-mimosa-deep-pinkish-red-with-blue-undertone-28122589659219.jpg?v=1619110021"],
+        category : "Bestsellers",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "Dream Cover SPF15 Mattifying Compact",
+        Price :  499,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-dream-cover-spf15-mattifying-compact-10-latte-12775602356307.jpg?v=1619106501",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-dream-cover-spf15-mattifying-compact-15-cappuccino-13728375865427.jpg?v=1619106503",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-dream-cover-spf15-mattifying-compact-30-chococcino-12775604813907.jpg?v=1619106505"],
+        category : "Bestsellers",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "Summer Makeup Kit",
+        Price :  1799,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/383779802-summer-makeup-kit-wbg-images.jpg?v=1649087039",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/382152565-summer-makeup-kit-wbg_2.jpg?v=1649070371",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/383778619-summer-makeup-kit-wbg_3_3_bc44845e-1f2d-4acc-b0d9-001e3593cea4.jpg?v=1649087041"],
+        category : "Make up kits",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "Date Night Makeup Kit",
+        Price :  1599,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/1_37e8dc88-a720-44ed-a5f3-1e0f0e95bc17.jpg?v=1649692645",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/ValentineDayKitWBGArtboard2.jpg?v=1649658036",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/ValentineDayKitWBGArtboard3.jpg?v=1649658036"],
+        category : "Make up kits",
+        id:'TRENDING'
+    },
+    {
+        ProductNmae : "9-in-1 Beauty Kit",
+        Price :  1999,
+        image :["https://cdn.shopify.com/s/files/1/0906/2558/products/1_172725a5-b5f9-4648-869a-4c05561a1f81.jpg?v=1650023118",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/MAH9in1.jpg?v=1650023118",
+                "https://cdn.shopify.com/s/files/1/0906/2558/products/CreativeImages-Rs1999KitLaunchmain2.jpg?v=1650023118"],
+        category : "Make up kits",
+        id:'TRENDING'
+    },
 ] 
+
 
 
 if(localStorage.getItem("ProductPage")===null)
@@ -178,5 +395,88 @@ function showmakeup(){
     
     window.location.href='product.html'
 }
+
+let brushArr = []
+function showbrush(){
+    // console.log(1)
+    let brush = document.getElementById('brushfilter').value
+
+    for(let i=0 ; i<prodArr.length ; i++)
+    {
+        if(brush=="faceBrushes"){
+            brushArr= prodArr.filter(function(prod){
+              return(prod.category=='Face Brushes')  
+            });
+            
+        }
+
+        if(brush=="eyeBrushes"){
+            brushArr= prodArr.filter(function(prod){
+              return(prod.category=='Eyes Brushes')  
+            });
+        }
+    }
+
+    localStorage.setItem("ProductPage",JSON.stringify(brushArr))
+    
+    window.location.href='product.html' 
+    
+}
+
+let skinArr = []
+function showskin(){
+    // console.log(1)
+    let skin = document.getElementById('skincarefilter').value
+
+    for(let i=0 ; i<prodArr.length ; i++)
+    {
+        if(skin=="moist"){
+            skinArr= prodArr.filter(function(prod){
+              return(prod.category=='Moisturizer')  
+            });
+            
+        }
+
+        if(skin=="mask"){
+            skinArr= prodArr.filter(function(prod){
+              return(prod.category=='Mask')  
+            });
+        }
+    }
+
+    localStorage.setItem("ProductPage",JSON.stringify(skinArr))
+    
+    window.location.href='product.html' 
+    
+}
+
+let trendArr = []
+function showtrend(){
+    // console.log(1)
+    let trend = document.getElementById('trendingfilter').value
+
+    for(let i=0 ; i<prodArr.length ; i++)
+    {
+        if(trend=="makeup"){
+            trendArr= prodArr.filter(function(prod){
+              return(prod.category=='Make up kits')  
+            });
+            
+        }
+
+        if(trend=="best"){
+            trendArr= prodArr.filter(function(prod){
+              return(prod.category=='Bestsellers')  
+            });
+        }
+    }
+
+    localStorage.setItem("ProductPage",JSON.stringify(trendArr))
+    
+    window.location.href='product.html' 
+    
+}
+
+
 
 

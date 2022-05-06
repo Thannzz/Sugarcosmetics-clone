@@ -33,19 +33,19 @@ const topbar = () =>{
             <option value="face">FACE</option>
             <option value="eyes">EYES</option>
         </select>
-        <select>
-            <option class="default" value="BRUSHES">BRUSHES</option>
+        <select name='brushes' id='brushfilter' onchange='showbrush()' >
+            <option class="default">BRUSHES</option>
             <option value="faceBrushes">FACE BRUSHES</option>
             <option value="eyeBrushes">EYE BRUSHES</option>
             
         </select>
-        <select>
+        <select name='skincare' id='skincarefilter' onchange='showskin()'>
             <option class="default" value="SKINCARE">SKINCARE</option>
             <option value="moist">MOISTURIZER</option>
             <option value="mask">MASKS</option>
         </select>
-        <select>
-            <option class="default" value="TRENDING">TRENDING</option>
+        <select name='trending' id='trendingfilter' onchange='showtrend()'>
+            <option class="default">TRENDING</option>
             <option value="makeup">MAKE UP KITS</option>
             <option value="best">BESTSELLERS</option>
         </select>

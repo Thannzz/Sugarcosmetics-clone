@@ -27,6 +27,7 @@ function userdata(e,ph,pa){
 
 
 function getData(){
+    console.log(1)
     let alluser = JSON.parse(localStorage.getItem('user'))
 
     let email = document.getElementById('email_phone').value
@@ -52,7 +53,11 @@ function getData(){
         alert('Invalid Password')
         return 
      }
+     else if((email!=user.email && pass !=user.pass)){
+        alert('User data unavailbale. Please register before Login')
+        return 
+     }
     });
-    
+    console.log(2)
 }
     
