@@ -52,3 +52,12 @@ function showdata(el,index){
 }
 
 showdata(delivery)
+
+function payment(e){
+    alert('Order Placed Succesfully')
+    window.location.href='index.html'
+}
+
+function back(e){
+    window.location.href='delivery.html'
+}

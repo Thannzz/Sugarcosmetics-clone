@@ -12,13 +12,13 @@
 #leftbox{
     width: 55%;
     height: auto;
-    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
     /* border: 1px solid red; */
 }
 #rightbox{
     width: 45%;
     height:auto;
-    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
     /* border: 1px solid blue; */
     margin-top: 2%;
     margin-left: 2%;
@@ -121,12 +121,19 @@
     margin-top:50px;
     margin-left: 20px;
 }
-#customer{
+#upi{
     width: 95%;
     height: auto;
     /* border: 1px solid rgb(219, 136, 179); */
     margin: auto;
     display: flex;
+}
+#cash{
+    width: 95%;
+    height: auto;
+    /* border: 1px solid rgb(219, 136, 179); */
+    margin: auto;
+    padding-bottom: 2%;
 }
 .heading,.inp{
     width: 100%;
@@ -140,11 +147,14 @@
     border: none;
     border-bottom: #575555 1px solid;
     padding-bottom: 2%;
-
+    margin-left: 2%;
+    padding-top: 2%;
+    background-color:white ;
 }
 #name,#phone{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
 }
 #address{
     width: 95%;
@@ -158,6 +168,7 @@
     border: none;
     border-bottom: #575555 1px solid;
     padding-bottom: 2%;
+    margin-left: 2%;
 }
 #button{
     width: 80%;
@@ -166,7 +177,7 @@
     /* border: 1px solid red; */
     display: flex;
 }
-#save{
+#save,#back{
     margin: auto;
     background: #fc2779;
     color: #fff;
@@ -174,6 +185,28 @@
     border-radius: 0.25rem;
     border: none;
     padding: 2%;
+}
+#back{
+    background: black
+}
+p{
+    padding-left: 4%;
+}
+.secondbox{
+    /* border: black 1px solid; */
+    width: 95%;
+    margin: auto;
+    box-shadow: rgba(121, 38, 38, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color:white ;
+    margin-bottom: 2%;
+}
+.inp2{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
 }
 
 

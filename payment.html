@@ -53,29 +53,48 @@
             <div class="firstbox">
                 <div class="order"><img src="https://in.sugarcosmetics.com/desc-images/Offers_price_details.svg" alt="CustomerInformation"><span>Payment Method</span></div>
             </div>
-            <div id="customer">
-                <div id="name">
-                    <div class="heading">Full Name</div>
-                    <div class="inp"><input class="inputtag" type="text"></div>
+            <p>Select a Payment Method</p>  
+            <div class="secondbox">
+                <div id="upi">
+                    <div id="name">
+                        <img src="https://in.sugarcosmetics.com/paymentIcons/upi.svg" alt="upi">
+                        <p>Instant Pay using other UPIs(GPay,Phonepay,BHIM etc)</p>  
+                    </div>
                 </div>
-                <div id="phone">
-                    <div class="heading">Phone Number</div>
-                    <div class="inp"><input class="inputtag" type="number"></div>
-                </div>
+                <div class="inp"><input class="inputtag" type="text" placeholder="Enter UPI ID"></div>
             </div>
-            <div>
-                <div id="address">
-                    <div class="heading">Address</div>
-                    <div class="inp"><input class="inputtag" type="text" placeholder="Address Line 1"></div>
-                    <div class="inp"><input class="inputtag" type="text" placeholder="Address Line 2"></div>
-                    <div class="inp"><input class="inputtag2" type="number" placeholder="Pincode/Zipcode"></div>
-                    <div class="inp"><input class="inputtag2" type="text" placeholder="Country"></div>
-                    <div class="inp"><input class="inputtag2" type="text" placeholder="State"></div>
-                    <div class="inp"><input class="inputtag2" type="text" placeholder="City"></div>
+            <div class="secondbox">
+                <div id="upi">
+                    <div id="name">
+                        <img src="https://in.sugarcosmetics.com/paymentIcons/creditDebit.svg" alt="upi">
+                        <p>Credit/Debit Cards(Visa,Master,Rupay,etc)</p>  
+                    </div>
+                </div>
+                <div class="inp"><input class="inputtag" type="number" placeholder="Card Number"></div>
+                <div class="inp"><input class="inputtag" type="text" placeholder="Card Holder Name"></div>
+                <div class="inp2">
+                    <div class="inp"><input class="inputtag2" type="number" placeholder="Expiry (MM/YY)"></div>
+                    <div class="inp"><input class="inputtag2" type="number" placeholder="CVV"></div>
                 </div>
                 
             </div>
+            <div class="secondbox">
+                <div id="cash">
+                    <div id="name">
+                        <img src="https://in.sugarcosmetics.com/paymentIcons/creditDebit.svg" alt="upi">
+                        <p>Cash on delivery</p>  
+                    </div>
+                    <p>We recommend using a digital payment method for completing the payment</p>
+                </div>
+            </div>  
+            <div id="button">
+                <button id="back" onclick="back(event)"> < Dlivery Info</button>
+                <button id="save" onclick="payment(event)">Place Order</button>
+            </div>
         </div>
+        
+    </div>
+    
     </div>
 
     <div id="end"></div>
@@ -96,4 +115,4 @@
     
     end.innerHTML=footer()
     </script>
-    <script src="./scripts/payment.js"></script>
+<script src="./scripts/payment.js"></script>

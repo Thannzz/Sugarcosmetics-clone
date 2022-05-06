@@ -105,5 +105,5 @@ function reducequnat(el){
 }
 
 function payment(){
-    window.location.href='payment.js'
+    window.location.href='payment.html'
 }
